@@ -107,7 +107,7 @@ var meuCarro: Automovel = Automovel()
 // Construtores
 // Criamos um construtor com a palavra reservada init e com isso indicamos TODOS OS VALORES DAS VARIAVEIS OU CONSTANTES QUE NÃO SE INICIAM COM VALOR
 
-class Pessoa {
+class Pessoa1 {
     
     var nome: String
     var altura: Double
@@ -123,8 +123,8 @@ class Pessoa {
     }
 }
 
-var caio: Pessoa = Pessoa(nome: "Caio", altura: 1.84, peso: 84, tamanhoCalcado: 44)
-var matheus: Pessoa = Pessoa(nome: "Matheus", altura: 1.65, peso: 69, tamanhoCalcado: 40)
+var caio: Pessoa1 = Pessoa(nome: "Caio", altura: 1.84, peso: 84, tamanhoCalcado: 44)
+var matheus: Pessoa1 = Pessoa(nome: "Matheus", altura: 1.65, peso: 69, tamanhoCalcado: 40)
 //print(caio.nome)
 //print(caio.altura)
 //print(caio.peso)
